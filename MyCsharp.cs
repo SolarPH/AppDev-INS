@@ -9,7 +9,7 @@ public class MyCsharp
     // Expected Line 2, replace this comment with code on pull request
 		
 		MyCsharp pin = new MyCshaaro();
-		pin.printName("Serwe John Denver)
+		pin.printName("Serwe John Denver);
 	}
 	
 	public void printName(string name)
