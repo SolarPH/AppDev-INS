@@ -5,7 +5,7 @@ public class MyJava {
   }
 
   public static void main(String[] args) {
-    String name = "Andal, Clarisse";
+    String name = "Clarisse Andal";
    String course = "BSIT";
    int age = 21;
 
