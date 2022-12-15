@@ -4,7 +4,7 @@ public class MyCsharp
 {
 	public static void Main(string[] args)
 	{
-		string name, input;
+		string name;
 		Console.WriteLine("Pearl Blezara Joice H. Parafina");
 		name = Console.ReadLine();
 	}
