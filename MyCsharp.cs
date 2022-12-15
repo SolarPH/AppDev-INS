@@ -4,13 +4,15 @@ public class MyCsharp
 {
 	public static void Main(string[] args)
 	{
-		// Insert code from line below this comment where it instantiates the MyCsharp object into variable named pin, then call the method named printName(String name);
-    // Expected Line 1, replace this comment with code on pull request
-    // Expected Line 2, replace this comment with code on pull request
-	}
-	
-	public void printName(string name)
-	{
-		Console.WriteLine("Hello! My name is " + name);
+		Console.WriteLine("What's your name?");
+		String name = Console.ReadLine();
+		
+		Console.WriteLine("How old are you?");
+		int age = Convert.ToInt32(Console.ReadLine());
+		
+		Console.WriteLine("Hello " + name);
+		Console.WriteLine("You are " + age + " years old");
+		
+		Console.ReadKey();
 	}
 }
