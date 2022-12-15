@@ -1,18 +1,38 @@
 using System;
-		
-public class MyCsharp
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MathApp
 {
-	public static void Main(string[] args)
-	{
-		// Insert code from line below this comment where it instantiates the MyCsharp object into variable named pin, then call the method named printName(String name);
-    // Expected Line 1, replace this comment with code on pull request
-    // Expected Line 2, replace this comment with code on pull request
-	}
-	
-	public void printName(string name, string LastName,string MiddleName)
-	{
-		Console.WriteLine("Hello! My name is " + name);
-		Console.WriteLine("Hello! My LastName is " + LastName);
-		Console.WriteLine("Hello! My MiddleName is " + MiddleName);
-	}
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Survey before the MathApp launches please confirm if you are a human. ");
+            Console.Write("Ikaw bagay puge o maganda? ");
+            string sagot = Console.ReadLine();
+
+            if (sagot == "puge"){
+                diffMethods();
+            }
+            else
+            {
+                Console.WriteLine("Nakupo puge lang ang pepede dine!");
+            }
+            
+
+            Console.ReadKey(true);
+        }
+
+        static void diffMethods()
+        {
+            Console.WriteLine(Math.Round(71.4));
+            Console.WriteLine(Math.Abs(-3.9));
+            Console.WriteLine(Math.Sqrt(46));
+            Console.WriteLine(Math.Floor(789.456));
+            Console.WriteLine(Math.Exp(123));
+        }
+    }
 }
