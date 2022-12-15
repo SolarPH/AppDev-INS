@@ -1,4 +1,4 @@
-public class Main {
+public class MyJava {
   public static void printName(String name, int age, String course)
   {
     System.out.println("Hello! My name is " + name + "!" + "I am" + age + "years old" + "I am partaking " + course + "as my course");
