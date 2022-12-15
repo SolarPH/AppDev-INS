@@ -8,8 +8,8 @@ public class MyCsharp
     // Expected Line 1, replace this comment with code on pull request
     // Expected Line 2, replace this comment with code on pull request
 
-           MyCsharp RieM = new MyCsharp();
-           RieM.printName("Loridel M. Maloles");
+           MyCsharp pin = new MyCsharp();
+           pin.printName("Loridel M. Maloles");
 	}
 	
 	public void printName(string name)
