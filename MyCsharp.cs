@@ -1,5 +1,5 @@
 using System;
-					
+		
 public class MyCsharp
 {
 	public static void Main(string[] args)
@@ -9,8 +9,10 @@ public class MyCsharp
     // Expected Line 2, replace this comment with code on pull request
 	}
 	
-	public void printName(string name)
+	public void printName(string name, string LastName,string MiddleName)
 	{
 		Console.WriteLine("Hello! My name is " + name);
+		Console.WriteLine("Hello! My LastName is " + LastName);
+		Console.WriteLine("Hello! My MiddleName is " + MiddleName);
 	}
 }
