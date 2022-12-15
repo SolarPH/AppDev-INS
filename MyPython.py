@@ -1,16 +1,5 @@
-def myName(name: str):
-    print("Hello! My name is " + name + "!")
+fname = input ("Enter your first name: ")
+mname = input ("Enter your middle name: ")
+lname = input ("Enter your last name: ")
 
-def executeScript(name: str, toggle:bool=None):
-    if __name__ != "__main__": # Turn the logic of this line from Not Equals to Equals
-        myName("Marc John Benamera")
-    else:
-        print("...logic steered here...")
-    if (toggle!=None):
-        print("The toggle is set to " + str(toggle))
-    else:
-        print("Toggle has not been set, because it is optional")
-    print()
-
-executeScript("Marc John Benamera")
-executeScript("Marc John Benamera", True) # Turn this argument to False to switch the possible output
+print (lname , fname , mname)
