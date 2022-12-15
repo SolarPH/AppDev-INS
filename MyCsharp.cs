@@ -2,15 +2,23 @@ using System;
 					
 public class MyCsharp
 {
-	public static void Main(string[] args)
-	{
-		// Insert code from line below this comment where it instantiates the MyCsharp object into variable named pin, then call the method named printName(String name);
-    // Expected Line 1, replace this comment with code on pull request
-    // Expected Line 2, replace this comment with code on pull request
-	}
+	public static void Main() { 
+        
+        Console.Write("Enter your surname: ");
+	String SurName = Console.ReadLine();
 	
-	public void printName(string name)
-	{
-		Console.WriteLine("Hello! My name is " + name);
-	}
+	Console.Write("Enter your first name: ");
+	String FirstName = Console.ReadLine();
+	
+	Console.Write("Enter your middle name: ");
+	String MiddleName = Console.ReadLine();
+	
+	Console.WriteLine(" ________________________");
+	Console.WriteLine("__________________________");
+	Console.WriteLine(" -----------------------  ");
+	
+	Console.WriteLine ("My name is " + SurName, " " + FirstName," " + MiddleName );
+    }
 }
+	
+
