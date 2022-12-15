@@ -9,6 +9,6 @@ public class MyJava
   
   public void printName(String name)
   {
-    System.out.println("Hello! My name is " + name + "!");
+    System.out.println("Hi! Good Morning! My name is " + name + "!");
   }
 }
