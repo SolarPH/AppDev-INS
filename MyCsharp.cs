@@ -11,6 +11,6 @@ public class MyCsharp
 	
 	public void printName(string name)
 	{
-		Console.WriteLine("Hello! My name is " + name);
+		Console.WriteLine("Hello! My name is " + Medel, Kenneth);
 	}
 }
