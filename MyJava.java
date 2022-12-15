@@ -1,13 +1,14 @@
-public class MyJava
-{
-    public static void main(String[] args)
+public class Main {
+  public static void printName(String name, int age, String course)
   {
-      MyJava pin = new MyJava();
-      pin.println("Clarisse Andal");
-  }    
-  
-  public void printName(String name)
-  {
-    System.out.println("Hello! My name is " + name + "!");
+    System.out.println("Hello! My name is " + name + "!" + "I am" + age + "years old" + "I am partaking " + course + "as my course");
+  }
+
+  public static void main(String[] args) {
+    String name = "Clarisse Andal";
+   String course = "BSIT";
+   int age = 21;
+
+ printName(name, age, course);
   }
 }
