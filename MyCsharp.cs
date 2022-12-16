@@ -9,7 +9,7 @@ public class MyCsharp
     // Expected Line 2, replace this comment with code on pull request
 		
 		MyJava mjava = new MyJava();
-		pin.printName(" RENDON, JONLAURE ");
+		pin.printName(" RENDON, JONLAUREN ");
 		
 	}
 	
