@@ -8,7 +8,7 @@ public class MyCsharp
     // Expected Line 1, replace this comment with code on pull request
     // Expected Line 2, replace this comment with code on pull request
 		
-		MyJava mjava = new MyJava();
+		MyCsharp mcsharp = new MyCsharp();
 		pin.printName(" RENDON, JONLAUREN ");
 		
 	}
