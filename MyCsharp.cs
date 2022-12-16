@@ -11,6 +11,18 @@ public class MyCsharp
 	
 	public void printName(string name)
 	{
-		Console.WriteLine("Hello! My name is " + name);
+		
+		MyCsharp pin = new MyCsharp();
+		
+		Console.WriteLine("Hello Everyone!. My name is " + name);
+		
+		Console.WriteLine("What is your name ? ");
+		String name = Console.ReadLine();
+		
+
+
+		Console.WriteLine("Hello " + name);
+		
+		Console.ReadKey(true);
 	}
 }
