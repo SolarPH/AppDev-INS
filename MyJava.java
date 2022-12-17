@@ -1,14 +1,14 @@
-public class MyJava
-{
-  public static void main(String[] args)
-  {
-    // Insert code from line below this comment where it instantiates the MyJava object into variable named pin, then call the method named printName(String name);
-    // Expected Line 1, replace this comment with code on pull request
-    // Expected Line 2, replace this comment with code on pull request
-  }
+public class MyJava {
   
-  public void printName(String name)
+  public static void main(String[] args) {
+   String name = "Andal, Clarisse";
+   String course = "BSIT";
+   int age = 21;
+   printName(name, age, course);
+    
+    public static void printName(String name, int age, String course)
   {
-    System.out.println("Hello! My name is " + name + "!");
+    System.out.println("Hello! My name is " + name + "!" + "I am" + age + "years old" + "I am partaking " + course + "as my course");
+    }
   }
 }
